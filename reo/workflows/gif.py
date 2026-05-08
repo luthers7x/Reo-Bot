@@ -26,4 +26,3 @@ def get_gif(name:str, limit:int=10):
     # Giphy uses 'images', not 'media'
     return selected_gif.get('images', {}).get('original', {}).get('url')
 
-## idk
